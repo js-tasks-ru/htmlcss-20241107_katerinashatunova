@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+}
+
+:root {
+    font-size: 16px;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+header h1 {
+    padding: 20px;
+    background-color: red;
+    text-align: center;
+    font-size: 2rem;
+}
+
+footer {
+    font-size: 2rem;
+    text-align: center;
+    background-color: purple;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: orange;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.menu {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 10px;
+}
+
+main {
+    background-color: green;
+    padding: 20px 30px;
+}
+
+article {
+    padding: 20px;
+    background-color: blue;
+}
+
+article + article {
+    margin-top: 20px;
+}
+
+article h2 {
+    margin-bottom: 20px;
+}
