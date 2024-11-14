@@ -1,3 +1,5 @@
+/* normalize.css - устранит разницу в стилях между браузерами и при этом сохранит полезные настройки по умолчанию */
+@import 'normalize.css';
 @import '../fonts/fonts.css';
 
 :root {
