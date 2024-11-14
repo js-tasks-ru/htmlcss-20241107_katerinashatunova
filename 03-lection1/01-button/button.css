@@ -18,6 +18,7 @@
 .button:disabled {
     cursor: not-allowed;
     opacity: 0.5;
+    transition: opacity 200ms ease-in-out;
 }
 
 .button_primary {
@@ -25,8 +26,10 @@
     color: var(--white);
 }
 
+.button_primary:hover,
 .button_primary.button_hover {
     background-color: #2342C0;
+    transition: background 200ms ease-in-out;
 }
 
 .button_secondary {
@@ -34,8 +37,10 @@
     color: var(--white);
 }
 
+.button_secondary:hover,
 .button_secondary.button_hover {
     background-color: #5028C6;
+    transition: background 200ms ease-in-out;
 }
 
 .button_alternate {
@@ -44,6 +49,8 @@
     color: var(--grey-4);
 }
 
+.button_alternate:hover,
 .button_alternate.button_hover {
     border: 1px solid var(--black);
+    transition: background 200ms ease-in-out;
 }
