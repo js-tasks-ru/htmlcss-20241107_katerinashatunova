@@ -1,0 +1,14 @@
+.header {
+    padding: 96px 0 77px;
+    background-color: var(--white);
+    font-family: Inter, sans-serif;
+    border-bottom: 1px solid var(--grey-2);
+}
+
+.header__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 64px;
+    margin: 0;
+}
