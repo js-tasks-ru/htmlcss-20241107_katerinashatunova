@@ -1,5 +1,6 @@
 /* Стилизация аккордеона */
-.accordion {
+.accordion__item {
+    margin-bottom: 8px;
     padding: 24px 32px;
     background-color: var(--white);
     border: 1px solid var(--grey-3);
@@ -10,6 +11,10 @@
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+}
+
+.accordion__item:last-of-type {
+    margin-bottom: 0;
 }
 
 .accordion__summary {
